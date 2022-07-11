@@ -1,5 +1,5 @@
 console.log('hello');
-// alert('hello this is Qazi');
+// alert('hello this is Yash');
 // How to write a comment inline
 // Variables
 var b='smoothie';
