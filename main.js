@@ -150,3 +150,72 @@ for (let num = 0; num < 10; num++) {
     emptyArray.push(num);
 }  
 console.log(emptyArray); 
+// object in javascript
+// dictionary in python
+
+let student = {first:'yash',
+    last:'bhangale' ,
+    age:19,
+    height:125,
+    studentInfo:function(){
+        return this.first + '\n' + this.last + ' is ' + this.age + ' years old and is ' + this.height + ' cm tall';
+    }
+
+}; 
+console.log(student.first);
+console.log(student.last);
+student.first = 'notyash'; //change value of first
+console.log(student.first);
+student.age++;
+console.log(student.age);
+console.log(student.studentInfo());
+
+
+
+
+//conditionals , control flows (if else) 
+// && AND
+// || OR
+
+
+var age = prompt('What is your age?');
+if ( (age >= 18) && (age <= 35) ) {
+    status = 'target demo';
+    console.log(status);
+} else {
+    status = 'not target demo';
+    console.log(status);
+}
+
+
+
+//switch statements
+// differentiate between weekdays and weekends
+// day 0 --> sunday --> weekend
+// day 1 --> monday --> weekday
+// day 2 --> tuesday    --> weekday
+// day 5 --> friday --> weekend
+// day 3 --> wednesday  --> weekday
+// day 4 --> thursday   --> weekday
+// day 6 --> saturday   --> weekend
+// day 4 --> thursday --> weekday
+switch (6) {
+    case 0:
+        text = 'weekend';
+        break;
+    case 5:
+        text = 'weekend';
+        break;
+    case 6:
+        text = 'weekend';
+        break;
+    default:
+        text = 'weekday';
+ }
+ console.log(text);
+
+
+
+
+
+ 
